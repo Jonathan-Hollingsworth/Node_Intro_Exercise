@@ -11,7 +11,7 @@ Install the contents of `package.json` using `npm` before using the functions be
 ## fileCopy
 
 - `Node step3.js --out output.txt file.txt`
-- Copies the data from `file.txt` and uses it to replaces the data from `output.txt`
+- Copies the data from `file.txt` and uses it to replace the data from `output.txt`
 
 ## webCat
 
@@ -21,4 +21,4 @@ Install the contents of `package.json` using `npm` before using the functions be
 ## webCopy
 
 - `Node step3.js --out output.txt http://url.url`
-- Copies the response data `(Axios)` from the url and uses it to replaces the data from `output.txt`
+- Copies the response data `(Axios)` from the url and uses it to replace the data from `output.txt`
