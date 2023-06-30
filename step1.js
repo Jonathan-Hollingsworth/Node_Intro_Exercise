@@ -7,7 +7,6 @@ function cat(file) {
             process.exit(1)
         }
         console.log(data)
-        return data
     })
 }
 

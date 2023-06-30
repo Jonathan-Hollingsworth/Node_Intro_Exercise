@@ -8,7 +8,6 @@ function fileCat(file) {
             process.exit(1)
         }
         console.log(data)
-        return data
     })
 }
 
