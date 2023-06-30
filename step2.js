@@ -15,7 +15,7 @@ function webCat(url) {
     try {
         axios.get(url).then(resp => console.log(resp.data))
     } catch (error) {
-        console.log(error)
+        console.error(error)
         process.exit(1)
     }
 }
